@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+body {
+    background-color: #383838;
+}
+
+
+h1, h2, h3 {
+    font-size: 30px;
+    color: #000;
+    background: #8657e6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+fieldset {
+    border: 0;
+    background: #8657e6;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+label {
+    color: #fff;
+    margin-bottom: 0.2rem;
+}
+
+
+h1#aga1 {
+    margin-top: 2rem;
+    background: #8657e6;
+    color: #fff;
+}
+
+#aga1:hover {
+    color: gold;
+}
+
+h2 {
+    color: #fff;
+    border: 2px solid gold;
+}
+
+h2:hover {
+    color: gold;
+    animation: h2name;
+    transition: 2s fixed;
+}
+
+input[type="text"], input[type="senha"] {
+    padding: 0.2em;
+    box-shadow:  2px 2px  #000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+fieldset .form-session {
+    margin: 60px;
+}
+
+#aga1 {
+    align-items: center;
+    text-align: center;
+}
+
+
+h2 {
+    align-items: center;
+    text-align: center;
+}
+
+
+.container #checkbox {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Button */
+.btn {
+    background: #fff;
+    color: #8657e6;
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: gold;
+    cursor: pointer;
+}
+
+.flex-columns {
+   
+    background: url('https://i.pinimg.com/originals/d7/b3/da/d7b3da3d4b19b7f0c44673374158df0a.gif') no-repeat;
+    height: 400px;
+    width: 400px;
+    float: left;
+    flex-direction: column;
+}
